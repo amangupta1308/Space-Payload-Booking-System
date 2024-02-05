@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  background-color: whitesmoke;
+  padding: 8%;
+  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +14,218 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.center-div{
+  background-color: white;
+  border-radius: 17px;
+  border: 0;
+  padding: 8% 0 8% 0;
+  width: 90%;
+  margin-left: 6%;
+}
+.box-main-page{
+  background-color: #f36f1c;
+  width: 22%;
+  height: 25%;
+  border-radius: 8%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.box-content{
+  margin-top: auto;
+  font-size: large;
+}
+.main-content-heading{
+  font-size: 1.4vw;
+  font-weight: 500;
+  margin-top: 1.7vh;
+  margin-bottom: 3.2vh;
+}
+.payload-select-text{
+  font-weight: 500;
+  font-size: 1vw;
+}
+.logo-main{
+  background-color: #f36f1c;
+  width: 12%;
+  border-radius: 50%;
+  height: 8%;
+}
+.payload-item{
+  display: flex;
+  align-content: space-between;
+  margin-top: 2%;
+  padding: 2%;
+  justify-content: flex-start;
+}
+.payload-logo{
+  background-color: #f36f1c;
+  border-radius: 50%;
+  color: white;
+  width: 7%;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.payload-item:hover{
+  background-color: rgba(255, 192, 203, 0.17);
+}
+.payload-name{
+  margin-left: 3%;
+  width: 55%;
+}
+.payload-button{
+  margin-left: 20%;
+}
+.duration-button{
+  border: 1px solid grey;
+  border-radius: 25px;
+  width: 8.3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1vw;
+  font-weight: 400;
+  background-color: #1e88e4;
+  height: 6vh;
+  padding: 2%;
+}
+
+.duration-button:hover{
+  border: 2px solid golden;
+  color: #1e88e4;
+  background-color: white;
+}
+
+.duration-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.duration-next-button{
+  position: absolute;
+  bottom: 8%;
+  right: 9%;
+  background-color: #1e88e4;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.271);
+  border-radius: 4px;
+  width: 12%;
+  height: 7%;
+}
+.duration-next-button:hover{
+  background-color: white;
+  color:#1e88e4;
+  border: 1px solid #1e88e4;
+}
+.duration-heading{
+  font-size: x-large;
+  font-weight: 600;
+}
+.duration-text{
+  color: grey;
+  font-size: medium;
+}
+.seat-row{
+  display: flex;
+  justify-content: space-between;
+}
+.seat{
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 3.1vw;
+  height: 6.8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seat:hover{
+  background-color: #1e88e4;
+  color: white;
+  border: 0
+}
+.lower-row{
+  margin-top: 1vh;
+}
+.seat-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(4);
+  margin: 100px 0 100px 0;
+}
+.seat-cancel{
+  color: #1e88e4;
+  width: 8vw;
+  border: 0;
+  background-color: white;
+  height: 5vh;
+  border-radius: 6px;
+}
+.seat-next{
+  color: white;
+  background-color: #1e88e4;
+  width: 8vw;
+  border: 0;
+  height: 5vh;
+  border-radius: 6px;
+}
+.seat-buttons{
+  display: flex;
+  /* align-items: end; */
+  align-items: last baseline;
+  /* justify-content: space-between; */
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.color-div{
+  background-color: #1e88e4;
+}
+.circle-div{
+  width: 0.5vw;
+  height: 1vh;
+  border-radius: 50%;
+  margin: 0 2px 0 2px;
+}
+.non-color-div{
+  border: 1px solid grey;
+}
+.circles{
+  display: flex;
+  position: absolute;
+  bottom : 8%;
+  left: 50%;
+}
+.slots-data-text{
+  color: grey;
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+.calendar-heading{
+  font-size: 1.3vw;
+}
+.slot-button{
+  background-color: #1e88e4;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  height: 4.5vh;
+  margin-left: 2vw;
+}
+.slot-button:hover{
+  color: white;
+  background-color: #1e88e4;
+}
+.all-slots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+/* 
+.each-slot{
+  width: 50px;
+  height: 50px;
+} */
